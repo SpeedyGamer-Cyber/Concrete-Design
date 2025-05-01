@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>LR Material Design</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <div class="container">
+    <div class="left-pane">
+      <img src="lr-logo.png" alt="LR Logo" class="logo" />
+      <button onclick="showSection('concrete')">Material_Concrete</button>
+      <button onclick="showSection('concrete_time')">Material_Concrete wrt time</button>
+      <button onclick="showSection('steel')">Material_Steel</button>
+      <button onclick="showSection('load_factors')">Load_material_Factors</button>
+      <button onclick="showSection('beam_design')">Beam_Design (EC2004)</button>
+    </div>
+    <div class="main-window" id="main-window">
+      <h2>Welcome to LR Offshore Fixed Structures</h2>
+      <h3>Concrete Design tools.</h3>
+      <p>Select an option from the left to begin.</p>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</body>
+</html>
